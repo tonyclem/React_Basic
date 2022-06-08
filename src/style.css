@@ -1,0 +1,17 @@
+body {
+  background-color: #f1f5f8;
+  color: #222;
+}
+
+.book-list {
+  font-family: sans-serif;
+  text-align: center;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+}
+
+.img {
+  width: 200px;
+  height: 350px;
+}
