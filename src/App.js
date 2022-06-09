@@ -1,10 +1,10 @@
 import React from "react";
-import { UseStateBasic } from "./tutorial/useState/setup/useState-basic";
+import Setup from "./tutorial/useState/setup/useState-array";
 
 const App = () => {
   return (
     <div className="container">
-      <UseStateBasic />
+      <Setup />
     </div>
   );
 };
