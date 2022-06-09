@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "../../../data";
+import { data } from "../../data";
 
 const UseStateArray = () => {
   const [people, setPeople] = React.useState(data);
@@ -7,6 +7,11 @@ const UseStateArray = () => {
   const removeItem = (id) => {
     let newPeople = people.filter((person) => person.id !== id);
     setPeople(newPeople);
+
+    // setPeople((oldPeople) => { same as above code
+    //   let newPeople = people.filter((person) => person.id !== id);
+    //   return newPeople;
+    // });
   };
 
   return (
