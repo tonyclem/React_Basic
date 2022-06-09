@@ -8,8 +8,14 @@ const UseEffectBasics = () => {
 
   useEffect(() => {
     console.log("call Effect");
-    document.title = `New Messages(${value})`;
-  });
+    if (value >= 1) {
+      document.title = `New Messages(${value})`;
+    }
+  }, [value]);
+
+  useEffect(() => {
+    console.log("Hello world");
+  }, []);
 
   console.log("render component");
   return (
