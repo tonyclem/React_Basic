@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const UseStateBasic = () => {
+const UseStateBasic = () => {
   const [text, setText] = useState("Code 101");
   const handleClick = () => {
     if (text === "Code 101") {
@@ -19,3 +19,5 @@ export const UseStateBasic = () => {
     </React.Fragment>
   );
 };
+
+export default UseStateBasic;

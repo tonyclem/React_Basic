@@ -8,7 +8,7 @@ const UseStateArray = () => {
     let newPeople = people.filter((person) => person.id !== id);
     setPeople(newPeople);
 
-    // setPeople((oldPeople) => { same as above code
+    // setPeople((oldPeople) => { // same as above code
     //   let newPeople = people.filter((person) => person.id !== id);
     //   return newPeople;
     // });
