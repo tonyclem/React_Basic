@@ -1,5 +1,5 @@
 import React from "react";
-import Setup from "./tutorial/conditionRendering/multiple-return";
+import Setup from "./tutorial/conditionRendering/short-circuit";
 
 const App = () => {
   return (
