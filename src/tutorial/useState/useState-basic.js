@@ -4,7 +4,7 @@ const UseStateBasic = () => {
   const [text, setText] = useState("Code 101");
   const handleClick = () => {
     if (text === "Code 101") {
-      setText("hello world is Code 200! Ok");
+      setText("hello world is Code 200 Ok!");
     } else {
       setText("random Code 501");
     }
