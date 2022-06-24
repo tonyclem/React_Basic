@@ -1,5 +1,5 @@
 import React from "react";
-import Setup from "./tutorial/forms/2-multiple-inputs";
+import Setup from "./tutorial/useReducer/index";
 
 const App = () => {
   return (
